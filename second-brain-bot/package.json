@@ -1,0 +1,19 @@
+{
+  "name": "second-brain-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Telegram bot — pre-call briefings, daily digests, overdue alerts via Notion + Google Calendar + Claude",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@notionhq/client": "^2.2.15",
+    "dotenv": "^16.4.7",
+    "googleapis": "^144.0.0",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
